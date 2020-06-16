@@ -1,0 +1,39 @@
+{
+  "name": "Machine_Learning_Invoice_Extraction",
+  "description": "Extraction of invoice with machine learning extractor and document proecessing API",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.2.1]",
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.IntelligentOCR.Activities": "[4.6.0-preview]",
+    "UiPath.Mail.Activities": "[1.8.5]",
+    "UiPath.OmniPage.Activities": "[1.5.0]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
